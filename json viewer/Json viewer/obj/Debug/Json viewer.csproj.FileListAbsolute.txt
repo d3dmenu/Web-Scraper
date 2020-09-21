@@ -1,8 +1,0 @@
-c:\users\smurf\documents\visual studio 2012\Projects\Json viewer\Json viewer\bin\Debug\Json viewer.exe
-c:\users\smurf\documents\visual studio 2012\Projects\Json viewer\Json viewer\bin\Debug\Json viewer.pdb
-c:\users\smurf\documents\visual studio 2012\Projects\Json viewer\Json viewer\obj\Debug\Json_viewer.Properties.Resources.resources
-c:\users\smurf\documents\visual studio 2012\Projects\Json viewer\Json viewer\obj\Debug\Json viewer.csproj.GenerateResource.Cache
-c:\users\smurf\documents\visual studio 2012\Projects\Json viewer\Json viewer\obj\Debug\Json viewer.exe
-c:\users\smurf\documents\visual studio 2012\Projects\Json viewer\Json viewer\obj\Debug\Json viewer.pdb
-c:\users\smurf\documents\visual studio 2012\Projects\Json viewer\Json viewer\obj\Debug\Json_viewer.Form1.resources
-C:\Users\Smurf\Documents\Visual Studio 2012\Projects\Json viewer\Json viewer\obj\Debug\Json viewer.csprojResolveAssemblyReference.cache
