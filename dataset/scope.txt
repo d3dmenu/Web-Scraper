@@ -1,0 +1,18 @@
+Shopee, lazada, ebay, amazon, alibaba, 425degree
+
+topic
+Fontsize 20, 22, 18, 21, 16, 22
+Fontweight 500, 500, 700, 400, 400, 400
+Lineheight 24, 18.4, 24 , 20.8, 24, 16
+wordsame 1, 2, 5, 3, 3, 2
+
+desciption
+Fontsize 14, 14, 13, 13, 12
+Fontweight 300, 200
+Lineheight 19.2, 18, 19, 18
+
+price
+Fontsize 30, 30, 16, 17, 20, 15
+Fontweight 500, 500, 700
+Lineheight 19.2, 18.4, 20.08, 24, 14
+
