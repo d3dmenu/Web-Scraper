@@ -5,7 +5,7 @@ from cssjson import cssjson
 from setup import installed
 
 # shopee
-url = "https://shopee.co.th/%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%94%E0%B8%8B%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%9E%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%94%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1-%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%B9%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-INS-%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%84%E0%B8%AD%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B9%82%E0%B8%8B%E0%B9%88%E0%B9%84%E0%B8%AB%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%97-%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B8%A1%E0%B8%93%E0%B9%8C%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%B9%E0%B8%AA%E0%B8%B5%E0%B9%81%E0%B8%94%E0%B8%87%E0%B8%95%E0%B8%B2%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B9%88%E0%B8%B2-%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B8%A3%E0%B8%B1%E0%B8%94-%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%84%E0%B8%AD-%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B7%E0%B8%AD-%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99-%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%84%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89-i.251414252.4732325115"
+url = "https://shopee.co.th/%E0%B8%81%E0%B8%B4%E0%B9%8A%E0%B8%9A%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%94%E0%B8%8B%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-i.148820479.2334606830"
 
 # lazada
 # url = "https://www.lazada.co.th/products/apple-ipad-pro-129-inch-wi-fi-cellular-64gb-space-grey-i160587876-s193401386.html?spm=a2o4m.searchlistbrand.list.1.72e35f5dnoHmvI&search=1"
@@ -24,46 +24,62 @@ style = "C:/Users/Smurf/Desktop/Engine/stylesheet/"
 def main():
 
     sc = helper(url, path, style, True)
-    sc.get_class_v1()  # Get class name from web
+    sc.get_class_v1()  # Get class name from web (146 Class)
     sc.get_cssurl()  # Get css page from web
     data, result = sc.class_name, ""
     for i in range(len(data)):
-        result = str(sc.get_attr(data[i]))
+        result = str(sc.get_attr(data[i]))  # Check found class and not found class
 
+    # [Count] All Class in html - 243 | Found Class in css - 72 | Not Found in css - 117
+    print(len(sc.class_name), len(sc.found_attr), len(sc.notfound_attr))
     # ============================================================================================================
 
     convert = cssjson()  # object variable
-    class_found = sc.found_attr  # found class in html (found 175 class)
+    class_found = sc.found_attr  # found class in html (found 126 class)
+    print("[Process] - Convert css to dict")
     convert.visualizer(
         sc.allcss
     )  # นำข้อมูลไฟล์ css ทุกไฟล์มารวมกันแล้วเปลี่ยน type เป็น dict
     css_dict = convert.data  # dictionary all css
-
+    print("[Process] - Find Path and tag class")
     datatest = {}
     for j in range(len(class_found)):
-        name = "." + class_found[j]
+        datatag = ["html", "body", "body,html"]
+        name = str(class_found[j])
+        clname = sc.addon(name)
         try:
-            # แสดงคุณสมบัติของคลาสที่พบใน html หน้านั้นๆ โดยใช้ข้อมูลจาก ไฟล์ css ทุกไฟล์ที่ทำการหามาตอนแรก [css_dict]
-            print("{'%s'}:%s" % (name, css_dict["children"][name]["attributes"]))
-
-            # จัดเรียงคุณสมบัติเพื่อให้ได้ class ที่มีคุณสมบัติครบตามต้องการ
-            datatest[name] = {
-                "font-size": css_dict["children"][name]["attributes"]["font-size"],
-                "font-weight": css_dict["children"][name]["attributes"]["font-weight"],
-                # "word-same": 2,
-                "line-height": css_dict["children"][name]["attributes"]["line-height"],
-                # "state-price": 0,
-            }
+            xpath = sc.xpath_soup(clname[0])
+            for ex in range(len(xpath)):
+                tag = clname[1]
+                if tag not in datatag:
+                    datatag.append(tag)
+            for xe in range(len(datatag)):
+                merge = css_dict["children"][datatag[xe]]["attributes"]
+                css_dict["children"]["." + name]["attributes"].update(merge)
         except:
             pass
-    # try เพราะ ไฟล์ bundle.css มีปัญหาไม่สามารถแปลงไฟล์ได้ส่งผลให้ class ที่อยู่ใน html หน้านั้น แล้วมี Attribute เก็บไว้ใน Bundle ไม่สามารถดึงมาใช้งานได้ เพราะแปลงไฟล์ bundle เป็น dict ไม่ได้
-
-    # ปัญหาใหม่ ตรวจสอบ style จากเว็บแล้วพบ font-size font-weight line-height แต่่วิธีที่เราดึงเราดึงจาก link rel แล้วปรากฏว่า มันมีไม่ครบมีแค่ font-size กับ font-weight
-    # คำถามคือทำไมในเว็บถึงมี line-height ได้ ทั้งๆที่ใน link rel ตรวจสอบทุกไฟล css แล้วว่าไม่มี
-    print("\n", datatest)
+        # print(name, datatag)
+    final = open("final.json", "w+", encoding="utf-8")
+    final.write(str(css_dict))
+    final.close()
     # ============================================================================================================
 
 
 if __name__ == "__main__":
     # installed()
     main()
+
+    # try:
+    #     # แสดงคุณสมบัติของคลาสที่พบใน html หน้านั้นๆ โดยใช้ข้อมูลจาก ไฟล์ css ทุกไฟล์ที่ทำการหามาตอนแรก [css_dict]
+    #     # print("{'%s'}:%s" % (name, css_dict["children"][name]["attributes"]))
+
+    #     # จัดเรียงคุณสมบัติเพื่อให้ได้ class ที่มีคุณสมบัติครบตามต้องการ
+    #     datatest[name] = {
+    #         "font-size": css_dict["children"][name]["attributes"]["font-size"],
+    #         "font-weight": css_dict["children"][name]["attributes"]["font-weight"],
+    #         # "word-same": 2,
+    #         "line-height": css_dict["children"][name]["attributes"]["line-height"],
+    #         # "state-price": 0,
+    #     }
+    # except:
+    #     pass
