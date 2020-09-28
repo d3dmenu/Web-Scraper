@@ -46,9 +46,9 @@ def main():
     for j in range(len(class_found)):
         datatag = ["html", "body", "body,html"]
         name = str(class_found[j])
-        clname = sc.addon(name)
+        clname = sc.addon(name)  # [<div class="shopee-progress-bar"></div>, 'div']
         try:
-            xpath = sc.xpath_soup(clname[0])
+            xpath = sc.xpath_soup(clname[0])  # ['html', 'body', 'div', 'div', 'div']
             for ex in range(len(xpath)):
                 tag = clname[1]
                 if tag not in datatag:
