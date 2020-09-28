@@ -130,7 +130,7 @@ class helper:
         html = helper.import_data()
         soup = BeautifulSoup(html, "html.parser")
         os.chdir(self.style)
-        
+
         for link in soup.find_all("link", rel="stylesheet", href=True):
             print("[Loading] -", link["href"])
             url_css = link["href"]
@@ -144,11 +144,14 @@ class helper:
             cj = cssjson()
             text = str(r.content, "utf-8")
 
-            try:  # cannot convert file bundle
+            try:
                 cj.visualizer(text)
                 self.allcss += text
             except:
                 pass
+        file = open("allcss.text", "w+", encoding="utf-8")
+        file.write(self.allcss)
+        file.close()
 
     def get_attr(self, classname):
         size, style = len(classname), ""
@@ -190,6 +193,61 @@ class helper:
 
     def RemtoPx(size):
         return size / 0.0625
+
+    def getTag(self, value):
+        os.chdir(self.path)
+        try:
+            result = helper.import_data()
+            soup = BeautifulSoup(result, "lxml")
+            tag = soup.find(class_=value)
+            return tag.name
+        except:
+            pass
+
+    def extract_class(value):
+        dom = re.findall(r"\"([^\"]*)\"", value)
+        return dom[0]
+
+    def xpath_soup(self, element):
+        real, components, fullpath, class_name = [], [], [], []
+        # Real = ['html', 'body', 'div', 'div', 'div']
+        # component = ['html', 'body', 'div[1]', 'div', 'div[1]']
+        # class_name = ['th', 'shopee-no-scroll nt-s nl-t', 'main', '', 'shopee-progress-bar']
+        try:
+            child = element if element.name else element.parent
+            for parent in child.parents:
+                siblings = parent.find_all(child.name, recursive=False)
+                # components.append(
+                #     child.name
+                #     if siblings == [child]
+                #     else "%s[%d]" % (child.name, 1 + siblings.index(child))
+                # )
+                if child.name not in real:
+                    real.append(child.name)
+                class_name.append(helper.extract_class(str(child)))
+                child = parent
+        except:
+            pass
+        # fullpath, fullclass = (
+        #     [elem for elem in components],
+        #     [elem for elem in class_name],
+        # )
+        # components.reverse()
+        # class_name.reverse()
+        real.reverse()
+        # return '/%s' % '/'.join(components)
+        return real
+
+    def addon(self, clname):
+        os.chdir(self.path)
+        try:
+            result = helper.import_data()
+            soup = BeautifulSoup(result, "lxml")
+            tag = soup.find(class_=clname)
+            elem = soup.find(tag.name, class_=clname)
+            return [elem, tag.name]
+        except:
+            pass
 
 
 # print(helper.h(245, 114, 36))
