@@ -1,4 +1,5 @@
 import setup
+import copy
 import json
 from helper import helper
 from cssjson import cssjson
@@ -53,12 +54,19 @@ def main():
                 tag = clname[1]
                 if tag not in datatag:
                     datatag.append(tag)
+
+            clone = copy.deepcopy(css_dict["children"]["." + name]["attributes"])
             for xe in range(len(datatag)):
-                merge = css_dict["children"][datatag[xe]]["attributes"]
-                css_dict["children"]["." + name]["attributes"].update(merge)
+                try:  # วนใน tag ทั้งหมด หากไม่พบ tag ใดๆ ก็ให้วน tag อื่นต่อ เลยต้องใส่ try เพื่อไม่ให้หลุดออกจาก loop แล้วเก็บ atr tag อื่นๆต่อไป
+                    merge = css_dict["children"][datatag[xe]]["attributes"]
+                    css_dict["children"]["." + name]["attributes"].update(merge)
+                except:
+                    pass
+                    # print(name, datatag[xe])
+            css_dict["children"]["." + name]["attributes"].update(clone)
         except:
             pass
-        # print(name, datatag)
+
     final = open("final.json", "w+", encoding="utf-8")
     final.write(str(css_dict))
     final.close()
